@@ -51,9 +51,9 @@ def min_max_filtering(M, N, I):
     return normalised_img
 
 P = cv2.imread('test3.jpeg',0)
-#plt.imshow(P,cmap='gray')
-#plt.title("original image")
-#plt.show()
+plt.imshow(P,cmap='gray')
+plt.title("original image")
+plt.show()
 
 
 #We can edit the N and M values here for P and C images
